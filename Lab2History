@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/png" href="https://bit.ly/2EvYkvF">
+		<header>
+			<div class="title">
+			   <text>History</text>
+			</div>
+			
+			<style>
+					.title {
+						 
+						font-size: 60px;
+						font-style: Times; 
+						color: black; 
+						width: 100%;
+						height: 200px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					.intro{
+						
+						border-style: outset;
+						padding-left: 15px;
+						margin-left: auto;
+						margin-right: auto;
+						font-size: 25px;
+						font-style: oblique; 
+						color: white; 
+						width: 98%;
+						height: 200px;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					header {
+						background: url("https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2017/neutrinofaci.jpg") no-repeat center;
+						background-size: 100% 100%;
+						height: 250px;	
+					}
+					body{
+						margin: 10px;
+						padding: 10px;
+					}
+					iframe{
+						display: block;
+						margin-right: auto;
+						margin-left: auto;
+						margin-top: 15px;
+					}
+					img{
+						float: right
+					}
+					nav{
+						vertical-align: middle;
+						align:center;
+						font-size: 20px;
+						font-weight: normal;
+						height: 50px;
+						padding: 0px 0 0 0px;
+						position: relative;
+						text-indent: 100px;
+					}
+			</style>
+		</header>
+	
+		<style type="text/css">
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+			li {
+				float: left;
+			}
+			li a {
+				display: inline-block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}li a:hover {
+				background-color: #111;
+			}
+		</style>
+	</head>
+	<body bgcolor="#0c0d0f">
+		<nav>
+			<ul>
+			  <li><a href="Lab2.html">Home</a></li>
+			  <li><a href="Lab2History.html">History</a></li>
+			  <li><a href="Lab2SignUp.html">Sign Up</a></li>
+			  <li><a href="Lab2Users.html">Users</a></li>
+			</ul>
+		</nav>
+
+		<h2 id="History"><font color="white"><em>History</em></font></h2>
+		
+		<p><font color="white"><img src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png" title="NASA Logo" alt="LOGO" height="150" width="300"/>
+				President Dwight D. Eisenhower established NASA in 1958 with a distinctly civilian, rather than military, 
+			orientation encouraging peaceful applications in space science. The National Aeronautics and Space Act was passed on July 29, 1958, 
+			disestablishing NASA's predecessor, the National Advisory Committee for Aeronautics (NACA). The new agency became operational on October 1,
+			1958. Since its establishment, most US space exploration efforts have been led by NASA, including the Apollo Moon landing missions, the Skylab
+			space station, and later the Space Shuttle. NASA is supporting the International Space Station and is overseeing the development of the Orion 
+			Multi-Purpose Crew Vehicle, the Space Launch System and Commercial Crew vehicles. The agency is also responsible for the Launch Services Program
+			which provides oversight of launch operations and countdown management for unmanned NASA launches.</font></p>
+		<br>
+
+		<h2><font color="white"><em>Project Gemini (1961–1966)</em></font></h2>
+		<p><font color="white">Based on studies to grow the Mercury spacecraft capabilities to long-duration flights, developing space rendezvous techniques, 
+			and precision Earth landing, Project Gemini was started as a two-man program in 1962 to overcome the Soviets' lead and to support the Apollo manned
+			lunar landing program, adding extravehicular activity (EVA) and rendezvous and docking to its objectives. The first manned Gemini flight, Gemini 3,
+			was flown by Gus Grissom and John Young on March 23, 1965. Nine missions followed in 1965 and 1966, demonstrating an endurance mission of nearly 
+			fourteen days, rendezvous, docking, and practical EVA, and gathering medical data on the effects of weightlessness on humans.</font></p>
+		<br>
+		
+		<h2><font color="white"><em>Apollo program (1961–1972)</em></font></h2>
+		<p><font color="white">The U.S public's perception of the Soviet lead in the space race (by putting the first man into space) motivated President John
+		F. Kennedy to ask the Congress on May 25, 1961, to commit the federal government to a program to land a man on the Moon by the end of the 1960s, 
+		which effectively launched the Apollo program.It used the Saturn rockets as launch vehicles, which were far bigger than the rockets built for previous projects.
+		The first person to stand on the Moon was Neil Armstrong, who was followed by Buzz Aldrin, while Michael Collins orbited above. Five subsequent Apollo 
+		missions also landed astronauts on the Moon, the last in December 1972. Throughout these six Apollo spaceflights, twelve men walked on the Moon. 
+		These missions returned a wealth of scientific data and 381.7 kilograms (842 lb) of lunar samples. Topics covered by experiments performed included 
+		soil mechanics, meteoroids, seismology, heat flow, lunar ranging, magnetic fields, and solar wind. The Moon landing marked the end of the space race;
+		and as a gesture, Armstrong mentioned mankind when he stepped down on the Moon.</font></p>
+		
+		<hr>
+		<h5><font color="white">Quotes</font></h5>
+		<blockquote cite="https://www.brainyquote.com/quotes/neil_armstrong_135030">
+		<font color="white"><em>"Mystery creates wonder and wonder is the basis of man's desire to understand. - Neil Armstrong"</em></font>
+		</blockquote>
+		<blockquote cite="https://www.brainyquote.com/quotes/buzz_aldrin_679849">
+		<font color="white"><em>"Space travel for everyone is the next frontier in the human experience.- Buzz Aldrin"</em></font>
+		</blockquote>
+
+		<audio controls>
+			<source src="Fly me to the moon.mp3" type="audio/mpeg">
+		</audio>
+
+		<footer align="right"><font color="white" size="5px">Popa Oana</font></footer>
+	</body>
+
+</html>
