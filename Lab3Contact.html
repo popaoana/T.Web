@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link href="Lab3.css" title="ttt" media="screen" type="text/css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="https://bit.ly/2EvYkvF">
+		<header>
+			<title>Contact</title>
+			
+			<div class="title">
+			   <text>Contact</text>
+			</div>
+		</header>
+	</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="Lab2.html">Home</a></li>
+			<li><a href="Lab2History.html">About</a></li>
+			<li><a href="Lab2SignUp.html">Profile</a></li>
+			<li><a href="Lab2Users.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<div class="w3-container">
+	  <br>
+	  <h2 align="center" ><font color="white">Need Help?</font></h2>
+	  <p align="center"><button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Contact Us</button></p>
+
+	  <div id="id01" class="w3-modal w3-modal w3-animate-opacity">
+		<div class="w3-modal-content w3-animate-top w3-card-4">
+		  <div class="w3-container w3-gray">
+			<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+			<h1 align="center"> Please leave your information here. </h1>
+			<br>
+			<div class="w3-container">
+				<div class="grid-container">
+					<div class="grid-item2"> <input type="text" name="name" placeholder="Your name" required> </div>
+					<div class="grid-item2">  <input type="email" name="email" placeholder="Your email" required> </div>
+					<div class="grid-item2">  <input type="tel" name="tel" placeholder="Your telephone number" required> </div>
+				</div>
+				<div class="grid-container2">
+					 <textarea cols="50" rows="5" name="comment" placeholder="Your comment" required></textarea>
+				</div>
+				<p align="right"> <a href="" class="button" align="right"> Submit </a> </p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+
+	<hr>
+	<footer align="right"> <font color="white" size="2px">
+			Headquarters <br>
+			1600 Amphitheatre Parkway <br>
+			Mountain View, CA 94043 <br>
+			USA
+		</font>
+	</footer>
+	
+	<script>
+		var modal = document.getElementById('id01');
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+		</script>
+	
+	</body>
+
+</html>
